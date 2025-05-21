@@ -1,14 +1,62 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home Page</title>
-  </head>
-  <body>
-  	<h1>The James Webn Telescope</h1>
-  	<p>The <strong>James Webb Telescope</strong> was launched into space on <strong>Dec. 25th 2021</strong>. 
-It does not orbit around the Earth like many other telescops. Instead it orbits the Sun 1.5 million kilometers away from the Earth. 
-This allows it to be able to see deeper into the universe. More information is provided in 
-		<a href="https://science.nasa.gov/mission/webb/" title="An "interesting" reference">Nasa's website.</a>
-	</p>
-<img src="https://www.safran-group.com/sites/default/files/crops/16_9/public/node/2111638/2022-01/James%20Webb%20T%C3%A9lescope%20-credit%20nasa%20illustration.jpg?itok=C5roHten" alt="jameswebb" width="300" height="200"/>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Demo of Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .video-container {
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+        }
+        .video-title {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+        .video-description {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Demo of Projects</h1>
+
+    <div class="video-container">
+        <div class="video-title">Project Alpha Demo</div>
+        <div class="video-description">This video demonstrates the key features and animations of Project Alpha, focusing on user interface and real-time interactions.</div>
+        <video controls>
+            <source src="project_alpha.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="video-container">
+        <div class="video-title">Project Beta Walkthrough</div>
+        <div class="video-description">A detailed walkthrough of Project Beta, showcasing backend logic, deployment strategy, and integration features.</div>
+        <video controls>
+            <source src="project_beta.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</body>
 </html>
