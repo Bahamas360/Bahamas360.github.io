@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Demo of Projects</title>
+    <meta name="robots" content="noindex">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -35,6 +36,8 @@
             border-radius: 8px;
         }
     </style>
+    <!-- Note: For full protection like X-Frame-Options and Content-Security-Policy,
+         you'd need server-side HTTP headers or use Cloudflare/Netlify -->
 </head>
 <body>
 
@@ -42,8 +45,8 @@
 
     <div class="video-container">
         <div class="video-title">Mine Sweeper</div>
-        <div class="video-description">This video shows the result of the project Mine Sweeper, It uses 3d openGl graphics for rendering the squares and textures.</div>
-        <video controls>
+        <div class="video-description">This video shows the result of the project Mine Sweeper. It uses 3D OpenGL graphics for rendering the squares and textures.</div>
+        <video controls controlsList="nodownload">
             <source src="Mine Sweeper.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -51,19 +54,21 @@
 
     <div class="video-container">
         <div class="video-title">The Game of Life</div>
-        <div class="video-description">This video shows the result of the project The Game of Life, It uses 2d openGl graphics for rendering the squares.</div>
-        <video controls>
+        <div class="video-description">This video shows the result of the project The Game of Life. It uses 2D OpenGL graphics for rendering the squares.</div>
+        <video controls controlsList="nodownload">
             <source src="GameOfLife.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
-        <div class="video-container">
+
+    <div class="video-container">
         <div class="video-title">Lab 4 and 3</div>
-        <div class="video-description">I used openGl 3d graphics to render this. This is not a game. Uses many different graphical techniques to render the scene. For example Shadow mapping, normal mapping, height mapping, lighting, fog, transparencey, rendering 3d imported obj filles and textures.</div>
-        <video controls>
+        <div class="video-description">I used OpenGL 3D graphics to render this. This is not a game. It uses many different graphical techniques to render the scene, including shadow mapping, normal mapping, height mapping, lighting, fog, transparency, and rendering 3D imported OBJ files and textures.</div>
+        <video controls controlsList="nodownload">
             <source src="LAB3and4.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+    </div>
 
 </body>
 </html>
